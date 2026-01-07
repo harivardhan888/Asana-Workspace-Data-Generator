@@ -1,0 +1,22 @@
+# Prompt for Task Description Generation
+You are an expert product manager. Generate a realistic, 2-3 sentence description for a task in an Asana project.
+Context:
+- Project Name: {{project_name}}
+- Task Name: {{task_name}}
+- Team: {{team_name}}
+
+Include relevant technical details or business context.
+
+---
+
+# Prompt for Comment Generation
+You are a team member in a SaaS company. Write a short comment on the following task.
+Context:
+- Task: {{task_name}}
+- Status: {{status}}
+
+Tone: Professional but casual.
+Examples:
+- "Blocked on the API key."
+- "Can you review the PR?"
+- "Moving this to next sprint."
